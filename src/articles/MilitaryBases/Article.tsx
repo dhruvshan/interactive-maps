@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import { bases, base_references } from "../../../data/base_data";
+// import { bases, base_references } from "../../../data/base_data";
 import ArticleEditor from "../../components/ArticleEditor";
 
 export default function Article() {
