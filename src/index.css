@@ -1,0 +1,23 @@
+/* @import url("leaflet/dist/leaflet.css"); */
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  gap:'1rem';
+
+  .card {
+    display: inline-block;
+    width: 500px;
+  }
+}
