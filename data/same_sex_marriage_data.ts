@@ -150,6 +150,7 @@ const same_sex_marriage = [
     {
         name:"Liechtenstein",
         date:"1 January 2025"
-    },
-    
+    },  
 ]
+
+export {same_sex_marriage};

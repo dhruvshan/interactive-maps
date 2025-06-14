@@ -1,13 +1,13 @@
 import { Box, Container, Typography } from "@mui/material";
-import {
-  MapContainer,
-  TileLayer,
-  Marker,
-  Popup,
-  LayersControl,
-  LayerGroup,
-} from "react-leaflet";
-import Leaflet from "leaflet";
+// import {
+//   MapContainer,
+//   TileLayer,
+//   Marker,
+//   Popup,
+//   LayersControl,
+//   LayerGroup,
+// } from "react-leaflet";
+// import Leaflet from "leaflet";
 import "leaflet/dist/leaflet.css";
 import F1Globe from "../components/F1Globe";
 

@@ -97,7 +97,7 @@ export default function OverseasMilitaryBases() {
                       {base.baseLocations.map((location, index) => {
                         return (
                           <Marker
-                            position={location.coordinates}
+                            position={[location.coordinates[0], location.coordinates[1]]}
                             icon={
                               new CountryIcon({
                                 iconUrl: "country/" + base.country + ".png",

@@ -32,6 +32,7 @@ function F1Globe(){
   const [counter, setCounter] = useState(0)
   const [initialViewState, setInitialViewState] = useState(CITIES[0]);
   const [arcLayers,setArcLayer] = useState([])
+  const [backButtonState, setBackButtonState] = useState(false);
   
 //   CITIES[counter].latitude = CITIES[counter].latitude**2
   function incrementRace(){
